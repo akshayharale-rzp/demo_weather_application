@@ -1,0 +1,73 @@
+# Android/Gradle
+.gradle/
+**/build/
+.cxx/
+.externalNativeBuild/
+.kotlin/
+
+# Local configuration
+local.properties
+gradle.properties
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# APK/AAB outputs
+*.apk
+*.ap_*
+*.aab
+
+# Keystores (do not commit signing keys)
+*.jks
+*.keystore
+
+# Captures and profiling
+captures/
+.android/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Crashlytics/Firebase (generated)
+app/src/main/assets/crashlytics-build.properties
+**/fabric.properties
+
+# Kotlin/Java caches
+.classpath
+.project
+.settings/
+
+# NDK intermediate
+obj/
+
+# Misc env files
+.env
+.env.*
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
